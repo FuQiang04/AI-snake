@@ -1,0 +1,8 @@
+本代码为基于强化学习的AI贪吃蛇代码
+
+1.train.py是训练文件，每次训练都会将其中表现的最好的模型保存为model.pth
+2.AI_snake.py是AI贪吃蛇文件，默认采用model文件夹下的best_model.pth，其中best_model远远超过了我自己的水平
+3.agent.py定义了Agent类
+4.game.py调用pygame库初始化游戏
+5.model.py定义了模型和训练器
+6.model文件夹下保存了训练得到的模型和之前表现最好的模型，AI贪吃蛇默认采用表现最好的模型进行游戏
